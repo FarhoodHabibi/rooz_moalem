@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: repeating-linear-gradient(to right, rgba(255, 12, 12, 0.98), rgba(255, 12, 12, 0.98) 3.5px, transparent 3.5px, transparent);
+    background-size: 26px 26px;
+    background-color: #47ff8a;
+}
+div{
+    margin-top: 100px;
+    background-color: orange;
+    width: 700px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50px;
+}
+div:hover{
+    background-color: black;
+}
+h1{
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+}
+h1:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.name {
+    width: 300px;
+    height: 80px;
+    margin-left: 50px;
+    align-self: flex-start;
+}
+
+.name h1{
+    font-size: 50px;
+}
